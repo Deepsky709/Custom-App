@@ -1,0 +1,40 @@
+#input1{
+    height: 30px;
+    width: 250px;
+    margin-bottom: 10px;
+    background-color: #F0F8FF;
+    border-radius: 5px;
+}
+
+#wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#per{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    text-align: center;
+}
+
+#button{
+    height: 35px;
+    background-color: #00BFFF;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
