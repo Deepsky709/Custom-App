@@ -12,7 +12,7 @@ if ($result == "incorrect"){
 }else if ($result == "nonexist"){
     echo"
     <script>
-        alert('This Account Does not Exist')
+        alert('This Account Does not Exist or Has Been Deleted')
     </script>
     ";
 };
@@ -39,6 +39,7 @@ if ($result == "incorrect"){
                     <input id="input1" type="password" name="pass" value="" placeholder="Password">
                 </div>
                 <button id="button"><b>Login</b></button>
+                
             </div>
         </div>
     </form>

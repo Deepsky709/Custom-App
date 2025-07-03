@@ -41,6 +41,12 @@ if ($status == "valid"){
                 <div>
                     <input id="input1" type="password" name="pass" value="" placeholder="Password">
                 </div>
+                <div>
+                    <select name="roles" id="input1">
+                        <option value="admin">Admin</option>
+                        <option value="user">User</option>
+                    </select>
+                </div>
                 <button id="button"><b>Daftar Sekarang</b></button>
             </div>
         </div>

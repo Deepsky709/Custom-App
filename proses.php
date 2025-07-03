@@ -4,12 +4,14 @@ include 'db.php';
 $user = $_GET['user'];
 $email = $_GET['email'];
 $pass = $_GET['pass'];
+$role = $_GET['roles'];
 
 $perintah = "INSERT INTO user VALUES (
             null,
             '$user',
             '$email',
-            '$pass')";
+            '$pass',
+            '$role')";
 
 $a = mysqli_query($conn,$perintah);
 
