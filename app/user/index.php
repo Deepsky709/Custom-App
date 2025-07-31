@@ -23,6 +23,7 @@
     <div id="wrap">
         <div id="per">
             <h1>Welcome <?=$name?>, here are your notes!</h1>
+            <div ></div>
             <table border="1">
                 <tr>
                     <th>Id</th>
@@ -57,5 +58,6 @@
             </form>
         </div>
     </div>
+    
 </body>
 </html>
